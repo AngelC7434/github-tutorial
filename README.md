@@ -4,9 +4,8 @@ _by Angel Chen_
 
 ---
 ## Git vs. GitHub
-git = a programming language that allows the developer to keep snapshots of code and back-track previouse codes
-github = a place where coding is stored, specifically git.
-Github also tracks the changes made.
+* Git = a programming language that allows the developer to keep snapshots of code and back-track previous codes  
+* Github = a place where coding is stored, specifically git. Github also tracks the changes made.
 
 
 ---
