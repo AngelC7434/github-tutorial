@@ -31,7 +31,13 @@ Then slowly press **Enter** repeatedly until you see something like
 
 ---
 ## Workflow & Commands
-
+1. Use **mkdir "name"** to create a directory  
+2. Use **cd** to go into your new directory (you can create anew folders/files inside after cd, remember to cd again to edit inside)  
+3. After you cd into it, use **git init** to initialize git before you start anything  
+4. Edit/make changes  
+5. Type **git add .**  
+6. Type **git status** and make sure your newly editted file is green  
+7. Type **git command -m "name the change(s)"**
 
 
 ---
