@@ -23,7 +23,9 @@ Do **cd** to make sure you are in the root directory after you did git config
 Type in **ssh-keygen -t rsa -b 4096 -C "you@example.com"**
 Then slowly press **Enter** repeatedly until you see something like
 ![GitHub Logo](key's-randomart.png)  
+
 **to get all steps for setup click this link: [https://github.com/hstatsep/ide50]**
+
 ---
 ## Repository Setup
 
