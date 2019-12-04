@@ -79,7 +79,7 @@ Undo lastest `git add .`/`git add file-name` do `git reset HEAD file-name`
 Undo lastes command, save undone changes (`git reset --soft HEAD-1`), or completely delete changes (`git reset --hard HEAD-1`)  
 
 Undo a push -> do...  
-1. `git revert "SHA`  
+1. `git revert "SHA"`  
 2. `Enter`  
 3. `git reset Head^ --hard`  
 4. `Enter`
