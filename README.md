@@ -4,8 +4,9 @@ _by Angel Chen_
 
 ---
 ## Git vs. GitHub
-git = a programming language that allows the developer to keep snapshots of code and back-track previouse codes
-github = a place where coding is stored, specifically git.
+**git** = a programming language that allows the developer to keep snapshots of code and back-track previouse codes  
+
+**github** = a place where coding is stored, specifically git.
 Github also tracks the changes made.
 
 
@@ -22,7 +23,21 @@ Then type **git config --global user.name "Your Name"**
 Do **cd** to make sure you are in the root directory after you did git config
 Type in **ssh-keygen -t rsa -b 4096 -C "you@example.com"**
 Then slowly press `Enter` repeatedly until you see something like
-![GitHub Logo](key's-randomart.png)
+![GitHub Logo](key's-randomart.png)  
+ls `-al ~/.ssh`, you should now see a file named **id_rsa.pub**  
+
+Go to **https://github.com/settings/keys** then **New SSH Key**
+1. title it ide50
+2. where is says **key** paste your ssh key
+3. press the green **Add** SSH key button
+4. return to your cs50 IDE, type **sudo nano ~/.ssh/config** and paste...
+* **`Host github.com`  
+    `Hostname ssh.github.com`  
+    `Port 443`**  
+5. do `control`+`X` to exit then press `Y` then `ENTER`  
+* `ssh -T git@github.com`  
+6. **type yes, press `ENTER`**  
+* you should see -> Hi "username"! You've successfully authenticated, but GitHub does not provide shell access.
 
 ---
 ## Repository Setup
