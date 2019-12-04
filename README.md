@@ -90,6 +90,6 @@ Undo a push -> do...
 ## Collaboration
 **Forking** = making a copy of a repository from someone else to your github account. This also allows you to do pull requests where you suggest a change to the original repo to the oner of the repo you forked from  
 
-**Cloning** = makes a copy of a repo to your local repository where you have to do `git clone **url**` and cd into it  
+**Cloning** = makes a copy of a repo to your local repository where you have to do `git clone <url>` and cd into it  
 
 **Pull requests** = the action of asking the owner of the original repo to accept/pull in the changes you have made to their repo after you forked it. The owner can choose to reject or accept those new edits  
